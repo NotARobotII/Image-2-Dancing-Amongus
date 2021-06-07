@@ -117,7 +117,7 @@ If you want to see the process, change all instances of .mpc to .png in the batc
 - Put the image sequence in a folder called "frames" in the same folder as the batch file
 - Create a folder called "amongusframes" in the same folder as the batch file
 
-![Shows folders and files, from left to right, amonguframes, frames, amongus2vid.bat, line[0-5].png, and OverlayLine[0-5].png ](https://i.imgur.com/uledWoo.png)
+![Shows folders and files, from left to right, amonguframes, frames, amongus2vid.bat, line[0-5].png, and OverlayLine[0-5].png ](https://i.imgur.com/IDnvKmt.png)
 # Things To Do 
 
 - [x] Make them
