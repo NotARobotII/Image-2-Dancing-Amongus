@@ -1,0 +1,1 @@
+amonguswave.bat 16 16 colorwheel.jpg example white
