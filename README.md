@@ -5,6 +5,10 @@ If someone wants to make this work for another OS, that'd be cool
 
 REQUIRES IMAGEMAGICK
 
+If you would like to see an example, download file "example", and the run example.bat, it will create the colorwheel gif shown, it takes up about 760 kb 
+
+![Dancing Crewmates tinted to look like a color wheel, it is 16 crewmates by 16 crewmates](https://imgur.com/dkGSSFv)
+
 ## Descriptions of what the batch files do
 
 - amongus.bat creates a gif with all of the crewmates dancing at the same exact time | This one is the first one so it is currently the most inefficent one
