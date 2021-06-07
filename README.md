@@ -18,18 +18,18 @@ Commands for the various batch files, run these in CMD in the same directory as 
 `
 amongus.bat 1 2 3 4
 `
-- 1 = how many amongus wide
-- 2 = how many amongus tall
-- 3 = name of the file
-- 4 = what to name the gif, do NOT include the .gif in the name, such as if you want troll.gif, write troll for 4.
+1. how many amongus wide
+2. how many amongus tall
+3. name of the file
+4. what to name the gif, do NOT include the .gif in the name, such as if you want troll.gif, write troll for 4.
 `
 amonguswave.bat 1 2 3 4 5 
 `
-- 1 = how many amongus wide
-- 2 = how many amongus tall
-- 3 = name of the file
-- 4 = what to name the gif, do NOT include .gif
-- 5 = what color to put behind the dancing
+1 = how many amongus wide
+2 = how many amongus tall
+3 = name of the file
+4 = what to name the gif, do NOT include .gif
+5 = what color to put behind the dancing
  - put transparent if nothing
  - for hex codes put "#ffffff" INCLUDING the quotation marks
  - for rgb values put "rgb(255,255,255)" again include the quotation marks
