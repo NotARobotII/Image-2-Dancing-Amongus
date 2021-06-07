@@ -1,6 +1,8 @@
 # Image-2-Dancing-Amongus
 Collection of files for my batchfile dancing amongus converters 📮
 
+Inspired from Among-Us-Dumpy-Gif-Maker, but while that is for more stylized gifs, this is for any image you want 
+
 If someone wants to make this work for another OS, that'd be cool
 
 REQUIRES IMAGEMAGICK
