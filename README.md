@@ -5,9 +5,14 @@ If someone wants to make this work for another OS, that'd be cool
 
 REQUIRES IMAGEMAGICK
 
-If you would like to see an example, download file "example", and the run example.bat, it will create the colorwheel gif shown, it takes up about 760 kb 
+If you would like to see an example, download file "example.zip", extract, and the run example.bat, it will create the colorwheel gif shown, it takes up about 760 kb 
 
 ![Dancing Crewmates tinted to look like a color wheel, it is 16 crewmates by 16 crewmates](https://imgur.com/dkGSSFv.gif)
+
+If you want to download the still image converters ( amongus.bat, amonguswave.bat, amonguswavecolor.bat ), then simply download "forstillimages.zip"
+
+If you want to download the video converter ( amongus2vid.bat ) then download "forvideos.zip"
+
 
 ## Descriptions of what the batch files do
 
@@ -103,6 +108,8 @@ You can delete everything in finalframes BESIDES "output" because output is wher
 
 If you want to see the process, change all instances of .mpc to .png in the batch file
 
+![Shows a bunch of folders and files, from left to right, dancingtemp, finalframes, overlayframes, amongus.bat, amonguswave.bat, amonguswavecolor.bat, background.png colorwheel.jpg, then the required images](https://i.imgur.com/uledWoo.png)
+
 ## For the video batch
 
 - Put line[0-5].png in the same folder as the batch file
@@ -110,6 +117,7 @@ If you want to see the process, change all instances of .mpc to .png in the batc
 - Put the image sequence in a folder called "frames" in the same folder as the batch file
 - Create a folder called "amongusframes" in the same folder as the batch file
 
+![Shows folders and files, from left to right, amonguframes, frames, amongus2vid.bat, line[0-5].png, and OverlayLine[0-5].png ](https://i.imgur.com/uledWoo.png)
 # Things To Do 
 
 - [x] Make them
