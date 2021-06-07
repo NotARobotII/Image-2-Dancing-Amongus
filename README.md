@@ -27,7 +27,7 @@ Commands for the various batch files, run these in CMD in the same directory as 
 
 1. How many amongus wide
 2. How many amongus tall
-3. Name of the file
+3. Name of the file, including the extension
 4. What to name the gif, do NOT include .gif
 5. What color to put behind the dancing
    - put transparent if nothing
@@ -37,16 +37,16 @@ Commands for the various batch files, run these in CMD in the same directory as 
 
 ### amonguswavecolor.bat 1 2 3 4 5 6
 
-- 1 = how many amongus wide
-- 2 = how many amongus tall
-- 3 = name of the file
-- 4 = what to name the gif, do NOT include .gif
-- 5 = what color to put behind the dancing
- - put transparent if nothing
- - for hex codes put "#ffffff" INCLUDING the quotation marks
- - for rgb values put "rgb(255,255,255)" again include the quotation marks
- - can also just put the name of the color, do NOT put quotation marks 
-6 = the max amount of colors for the source image to have when converted to tint the dancing gif
+1. How many amongus wide
+2. How many amongus tall
+3. Name of the file, including the extension
+4. What to name the gif, do NOT include .gif
+5. What color to put behind the dancing
+   - put transparent if nothing
+   - for hex codes put "#ffffff" INCLUDING the quotation marks
+   - for rgb values put "rgb(255,255,255)" again include the quotation marks
+   - can also just put the name of the color, do NOT put quotation marks 
+6. The max amount of colors for the source image to have when converted to tint the dancing gif, such as 16 if you want at maximum 16 differently colored crewmates
 
 This one needs to be run in another function, as it only converts one image by itself
 an example would be
@@ -56,23 +56,23 @@ for %i in (frames\*.png) do amongus2vid.bat 12 9 %i 10
 
 ### amongus2vid.bat 1 2 3 4
 
-- 1 = how many amongus wide
-- 2 = how many amongus tall
-- 3 = the file name
-- 4 = how much brightness you percentage want to add to the source image, put 0 if you don't want to edit the brightness.
+1. How many amongus wide
+2. How many amongus tall
+3. The file name, the file name needs to be a number and start with 6, such as 6000.png, 6001.png, 6002.png this is to ensure that it isn't registered as an octal number, and will still work with the modulo used 
+4. How much brightness you percentage want to add to the source image, put 0 if you don't want to edit the brightness.
 
 This one NEEDS a folder called "amongusframes" in the same folder as the batch file
 
 Also put the frames in a folder in the same folder as the batch file, simply change "frames\" in the command to whatever you call the folder
 
 
-## Requirements
+# Requirements
 
 Needs ImageMagick
 
 You need to have the required image files in the same file as the batch file
 
-# For the 3 still image batchs
+## For the 3 still image batchs
 
 If you want to avoid having the bat create new directories, create new folders with the names that follow and delete lines starting with "md"
 
@@ -91,7 +91,7 @@ You can delete everything in finalframes BESIDES "output" because output is wher
 
 If you want to see the process, change all instances of .mpc to .png in the batch file
 
-# For the video batch
+## For the video batch
 
 - Put line[0-5].png in the same folder as the batch file
 - Put OverlayLine[0-5].png in the same folder as the batch file
