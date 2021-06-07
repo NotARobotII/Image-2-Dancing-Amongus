@@ -7,10 +7,10 @@ REQUIRES IMAGEMAGICK
 
 ## Descriptions of what the batch files do
 
--amongus.bat creates a gif with all of the crewmates dancing at the same exact time | This one is the first one so it is currently the most inefficent one
--amonguswave.bat creates a gif with the crewmates making a wave with their dancing
--amonguswavecolor.bat creates a gif like the amongus wave, but you can limit how many different colors the crewmate will be
--amongus2vid.bat takes an image sequence, and converts each frame to a corresponding amongusfied frame, it DOES NOT automatically take in a video file and export one, you must first convert the video to an image sequence then convert the processed frames to a video sequence yourself
+- amongus.bat creates a gif with all of the crewmates dancing at the same exact time | This one is the first one so it is currently the most inefficent one
+- amonguswave.bat creates a gif with the crewmates making a wave with their dancing
+- amonguswavecolor.bat creates a gif like the amongus wave, but you can limit how many different colors the crewmate will be
+- amongus2vid.bat takes an image sequence, and converts each frame to a corresponding amongusfied frame, it DOES NOT automatically take in a video file and export one, you must first convert the video to an image sequence then convert the processed frames to a video sequence yourself
 
 These basically work by taking the source image, using editting to find the average color sections of the image, then tint a grid of dancing crewmates the corresponding colors
 
