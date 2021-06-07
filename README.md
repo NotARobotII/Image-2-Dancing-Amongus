@@ -126,3 +126,4 @@ If you want to see the process, change all instances of .mpc to .png in the batc
 - [ ] Make the still Image converters not generate so many temp files
 - [ ] Make the still Image converters not require background.png
 - [ ] Use the techniques used in the video converter in the image converter
+- [ ] Write in something other than batch
