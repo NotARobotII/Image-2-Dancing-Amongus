@@ -15,16 +15,16 @@ These basically work by taking the source image, using editting to find the aver
 ## Commands
 
 Commands for the various batch files, run these in CMD in the same directory as the batch file
-`
-amongus.bat 1 2 3 4
-`
+
+### amongus.bat 1 2 3 4
+
 1. How many amongus wide
 2. How many amongus tall
 3. Name of the file
 4. What to name the gif, do NOT include the .gif in the name, such as if you want troll.gif, write troll for 4.
-`
-amonguswave.bat 1 2 3 4 5 
-`
+
+### amonguswave.bat 1 2 3 4 5 
+
 1. How many amongus wide
 2. How many amongus tall
 3. Name of the file
@@ -34,9 +34,9 @@ amonguswave.bat 1 2 3 4 5
    - for hex codes put "#ffffff" INCLUDING the quotation marks
    - for rgb values put "rgb(255,255,255)" again include the quotation marks
    - can also just put the name of the color, do NOT put quotation marks 
-`
-amonguswavecolor.bat 1 2 3 4 5 6
-`
+
+### amonguswavecolor.bat 1 2 3 4 5 6
+
 - 1 = how many amongus wide
 - 2 = how many amongus tall
 - 3 = name of the file
@@ -53,9 +53,9 @@ an example would be
 `
 for %i in (frames\*.png) do amongus2vid.bat 12 9 %i 10
 `
-`
-amongus2vid.bat 1 2 3 4
-`
+
+### amongus2vid.bat 1 2 3 4
+
 - 1 = how many amongus wide
 - 2 = how many amongus tall
 - 3 = the file name
