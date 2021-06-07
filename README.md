@@ -30,10 +30,10 @@ amonguswave.bat 1 2 3 4 5
 3. Name of the file
 4. What to name the gif, do NOT include .gif
 5. What color to put behind the dancing
- - put transparent if nothing
- - for hex codes put "#ffffff" INCLUDING the quotation marks
- - for rgb values put "rgb(255,255,255)" again include the quotation marks
- - can also just put the name of the color, do NOT put quotation marks 
+  - put transparent if nothing
+  - for hex codes put "#ffffff" INCLUDING the quotation marks
+  - for rgb values put "rgb(255,255,255)" again include the quotation marks
+  - can also just put the name of the color, do NOT put quotation marks 
 `
 amonguswavecolor.bat 1 2 3 4 5 6
 `
