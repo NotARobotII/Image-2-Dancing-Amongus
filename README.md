@@ -1,7 +1,9 @@
 # Image-2-Dancing-Amongus
-Collection of files for my various dancing amongus converters
+Collection of files for my batchfile dancing amongus converters 📮
 
-## REQUIRES IMAGEMAGICK
+If someone wants to make this work for another OS, that'd be cool
+
+REQUIRES IMAGEMAGICK
 
 ## Descriptions of what the batch files do
 
@@ -70,6 +72,8 @@ Also put the frames in a folder in the same folder as the batch file, simply cha
 
 Needs ImageMagick
 
+Was written for Windows 10, so you'll have to change somethings around for it to work on another OS
+
 You need to have the required image files in the same file as the batch file
 
 ## For the 3 still image batchs
@@ -101,3 +105,10 @@ If you want to see the process, change all instances of .mpc to .png in the batc
 - Put OverlayLine[0-5].png in the same folder as the batch file
 - Put the image sequence in a folder called "frames" in the same folder as the batch file
 - Create a folder called "amongusframes" in the same folder as the batch file
+
+# Things To Do 
+
+- [x] Make them
+- [ ] Make the still Image converters not generate so many temp files
+- [ ] Make the still Image converters not require background.png
+- [ ] Use the techniques used in the video converter in the image converter
