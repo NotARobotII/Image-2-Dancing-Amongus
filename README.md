@@ -74,7 +74,11 @@ You need to have the required image files in the same file as the batch file
 
 ## For the 3 still image batchs
 
-If you want to avoid having the bat create new directories, create new folders with the names that follow and delete lines starting with "md"
+- Put all of the required images in the same folder as the batch file
+- Batch file will create all of the folders needed
+
+
+If you want to avoid having the batch create new directories, create new folders with the names that follow and delete lines starting with "md"
 
 - overlayframes
 - finalframes
