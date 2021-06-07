@@ -7,7 +7,7 @@ REQUIRES IMAGEMAGICK
 
 If you would like to see an example, download file "example", and the run example.bat, it will create the colorwheel gif shown, it takes up about 760 kb 
 
-![Dancing Crewmates tinted to look like a color wheel, it is 16 crewmates by 16 crewmates](https://imgur.com/dkGSSFv)
+![Dancing Crewmates tinted to look like a color wheel, it is 16 crewmates by 16 crewmates](https://imgur.com/dkGSSFv.gif)
 
 ## Descriptions of what the batch files do
 
