@@ -8,7 +8,7 @@ REQUIRES IMAGEMAGICK
 
 ![Dancing Crewmates tinted to look like a color wheel, it is 16 crewmates by 16 crewmates](https://imgur.com/dkGSSFv.gif)
 
-If you want to download the files with examples, download "BatchesWithExamples.zip" ~45 MB when uncompressed
+If you want to download the files with examples, download "BatchesWithExamples.zip" ~7.7 MB when uncompressed
 
 If you want to download the files without example, download "Batches.zip" ~140 KB when uncompressed
 
@@ -52,7 +52,7 @@ for %i in (frames\*.png) do amongus2vid.bat 12 9 %i 10
 6. The color of what to put behind the dancing, can use hex codes by using "#FFFFFF", and rgb with "rgb(255,255,255)", with the quotation marks, some color names work with this 
 7. The pattern, 0 being all dance at once, 1 creates a wave left to right.
 
-Put frames to be processed in a folder called "inputframes"
+Put frames to be processed in a folder called "inputframes", be sure to name the files with 1 in the tenth place, such as 1000000000.png, 1000000001.png, can use `magick *.png 1%09d.png` to convert a bunch of frames to the needed naming scheme. 
 
 Frames will be put in a folder called "processedframes"
 
