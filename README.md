@@ -39,7 +39,7 @@ Commands for the various batch files, run these in CMD in the same directory as 
 This next one needs to be run in another function, as it only converts one image by itself
 an example would be
 `
-for %i in (frames\*.png) do amongus2vid.bat 12 9 %i 10
+for %i in (inputframes\*.png) do amongus2vid.bat 12 9 %i 10
 `
 
 ### amongus2vid.bat 1 2 3 4 5 6 
@@ -52,7 +52,7 @@ for %i in (frames\*.png) do amongus2vid.bat 12 9 %i 10
 6. The color of what to put behind the dancing, can use hex codes by using "#FFFFFF", and rgb with "rgb(255,255,255)", with the quotation marks, some color names work with this 
 7. The pattern, 0 being all dance at once, 1 creates a wave left to right.
 
-Put frames to be processed in a folder called "inputframes", be sure to name the files with 1 in the tenth place, such as 1000000000.png, 1000000001.png, can use `magick *.png 1%09d.png` to convert a bunch of frames to the needed naming scheme. 
+Put frames to be processed in a folder called "inputframes", be sure to name the files with 1 in the tenth place, such as 1000000000.png, 1000000001.png, could use `magick *.png 1%09d.png` to convert a bunch of frames to the needed naming scheme, although this leaves you with the orginally named frames and the renamedframes. Probably a better way but whatever. 
 
 Frames will be put in a folder called "processedframes"
 
