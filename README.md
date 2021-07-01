@@ -31,7 +31,7 @@ Commands for the various batch files, run these in CMD in the same directory as 
 4. The name of the ouput excluding .gif
 5. How much of a delaybetween frames in centiseconds (10 milliseconds)
 6. What color to put in the background, use transparent if none, can use hex codes by using "#FFFFFF", and rgb with "rgb(255,255,255)", with the quotation marks, some color names work with this
-7. What percenatge to change the brightness of the image, including + or -, put +0 if you want no change
+7. What percentage to change the brightness of the image, including + or -, put +0 if you want no change
 8. What pattern of dances to use, 0 will have all of the characters dancing as once, 1 will have all of the characters dancing in a way that creates a wave going from left to right
 
 
